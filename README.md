@@ -1,4 +1,4 @@
-# Mental Illness Prediction
+# Mental Illness Prediction In Teenagers
 
 ![Mental Health](mental_health.jpg)
 
@@ -24,13 +24,34 @@ The notebook showcases the following:
 The dataset used for this project is available at [Kaggle](https://www.kaggle.com/datasets/lucasgreenwell/depression-anxiety-stress-scales-responses?select=codebook.txt). It was collected using an online version of the Depression Anxiety Stress Scales (DASS), which consists of 42 questions designed to measure the negative emotional states of depression, anxiety, and tension/stress. The response values in the dataset range from 1 to 4, which were converted to the range 0 to 3 to align with the DASS(42) standard scales. The dataset was filtered for the age group 13-19 to focus on teenagers.
 
 ## Usage
-1. Clone the repository to your local machine using the following command:
+1) Clone the repository to your local machine using the following command:
 ```shell
 git clone https://github.com/kajolshah310/mental_illness_prediction.git
+```
+2) Navigate to the repository's directory:
+
+cd mental_illness_prediction
+
+3) Launch Jupyter Notebook:
+
+jupyter notebook
+
+4) Open the mental_disorders_prediction.ipynb notebook and execute the cells to follow along with the preprocessing, visualization, and prediction of mental health disorders.
+
+Feel free to modify the code and experiment with different machine learning algorithms and visualization techniques to gain further insights into mental health predictions.
+
+## References
+
+1) DASS (Depression Anxiety Stress Scales): http://www2.psy.unsw.edu.au/dass/
+2) Kaggle Dataset: https://www.kaggle.com/datasets/lucasgreenwell/depression-anxiety-stress-scales-responses?select=codebook.txt
+
+## License
+This repository is licensed under the MIT License. Feel free to use the code and notebook for your own projects or research.
 
 
-Dataset used for this project:- https://www.kaggle.com/datasets/lucasgreenwell/depression-anxiety-stress-scales-responses?select=codebook.txt
-This data was collected with an on-line version of the Depression Anxiety Stress Scales (DASS). The DASS is a 42-item self report instrument designed to measure the three related negative emotional states of depression, anxiety and tension/stress.
+## Additional info
+
+The data was collected with an on-line version of the Depression Anxiety Stress Scales (DASS). The DASS is a 42-item self report instrument designed to measure the three related negative emotional states of depression, anxiety and tension/stress.
 
 Dass(42) contains total of 42 questions which has to be answered. Each stress, anxiety, depression we
 allocated with 14 questions.
