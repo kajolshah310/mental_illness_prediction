@@ -1,9 +1,9 @@
 # Mental Illness Prediction In Teenagers
 
-![Mental Health](mental_health.jpg)
-
 ## Description
 This repository contains a Jupyter Notebook that focuses on the prediction of mental health disorders - depression, anxiety, and stress in teenagers. The motivation behind this project is the significant impact of stress, anxiety, and depression on the lives of teenagers, particularly during the crucial ages of 13-19. The objective of the project is to develop a machine learning model that predicts the severity scales of these mental illnesses, providing insights into the mental health of teenagers.
+
+![alt text](https://github.com/kajolshah310/mental_illness_prediction/blob/main/das.jpeg)
 
 The project utilizes a dataset collected with an online version of the Depression Anxiety Stress Scales (DASS). The DASS is a 42-item self-report instrument designed to measure the negative emotional states of depression, anxiety, and tension/stress. The dataset used for this project can be found at [Kaggle](https://www.kaggle.com/datasets/lucasgreenwell/depression-anxiety-stress-scales-responses?select=codebook.txt).
 
@@ -72,24 +72,24 @@ Dass(42) contains total of 42 questions which has to be answered. Each of the me
 The DASS(42) standard scales used to measure the severity levels of the three mental disorders are as mentioned below:-\
 
 **Depression:-**
-Normal	                0-9\       
-Mild	                  10-13\	      
-Moderate	              14-20\     
-Severe	                21-27\
-Extremely Severe	      28+\
+Normal:	                0-9       
+Mild:	                  10-13	      
+Moderate:	              14-20    
+Severe:	                21-27
+Extremely Severe:	      28+
 
 
 **Anxiety:-**
-Normal	                0-7\	      
-Mild	                  8-9\	      
-Moderate	              10-14\	    
-Severe	                15-19\
-Extremely Severe	      20+\
+Normal:	                0-7      
+Mild:	                  8-9	      
+Moderate:	              10-14	    
+Severe:	                15-19
+Extremely Severe:	      20+
 
 **Stress:-**
-Normal	                0-14\
-Mild	                  15-18\
-Moderate	              19-25\
-Severe	                26-33\
-Extremely Severe	      34+\
+Normal:	                0-14
+Mild:	                  15-18
+Moderate:	              19-25
+Severe:	                26-33
+Extremely Severe:	      34+
 
