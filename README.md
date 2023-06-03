@@ -1,8 +1,33 @@
-# mental_illness_prediction
-**Prediction of Mental Health Disorders - Depression, Anxiety and Stress in Teenagers**
+# Mental Illness Prediction
 
-**Motivation:-**
-Major career decisions of a human are to be decided between the ages 13-19 and also the physical and pyschosocial growth happens at this age. In some cases, these are affected by stress, anxiety and depression of that person. So, a model was developed to predict stress, anxiety and depression for teenagers using machine learning algorithms. Instead of just predicting a single mental disorder, in this model, we are predicting the severity scales of all three mentioned mental illnesses. 
+![Mental Health](mental_health.jpg)
+
+## Description
+This repository contains a Jupyter Notebook that focuses on the prediction of mental health disorders - depression, anxiety, and stress in teenagers. The motivation behind this project is the significant impact of stress, anxiety, and depression on the lives of teenagers, particularly during the crucial ages of 13-19. The objective of the project is to develop a machine learning model that predicts the severity scales of these mental illnesses, providing insights into the mental health of teenagers.
+
+The project utilizes a dataset collected with an online version of the Depression Anxiety Stress Scales (DASS). The DASS is a 42-item self-report instrument designed to measure the negative emotional states of depression, anxiety, and tension/stress. The dataset used for this project can be found at [Kaggle](https://www.kaggle.com/datasets/lucasgreenwell/depression-anxiety-stress-scales-responses?select=codebook.txt).
+
+The notebook showcases the following:
+- Preprocessing of the dataset, including changing the scale from 1-4 to 0-3, filtering the dataset for the age group 13-19, and creating outcome columns for stress, anxiety, and depression.
+- Exploration and visualization of the dataset to gain insights into the severity levels of the mental disorders.
+- Implementation of machine learning algorithms to predict the severity scales of depression, anxiety, and stress.
+- Evaluation of model performance using appropriate metrics.
+
+## Features
+- Prediction of mental health disorders - depression, anxiety, and stress in teenagers
+- Preprocessing techniques to transform the dataset and create outcome columns
+- Visualization and analysis of severity levels for mental disorders
+- Application of machine learning algorithms for prediction
+- Evaluation of model performance using appropriate metrics
+
+## Dataset
+The dataset used for this project is available at [Kaggle](https://www.kaggle.com/datasets/lucasgreenwell/depression-anxiety-stress-scales-responses?select=codebook.txt). It was collected using an online version of the Depression Anxiety Stress Scales (DASS), which consists of 42 questions designed to measure the negative emotional states of depression, anxiety, and tension/stress. The response values in the dataset range from 1 to 4, which were converted to the range 0 to 3 to align with the DASS(42) standard scales. The dataset was filtered for the age group 13-19 to focus on teenagers.
+
+## Usage
+1. Clone the repository to your local machine using the following command:
+```shell
+git clone https://github.com/kajolshah310/mental_illness_prediction.git
+
 
 Dataset used for this project:- https://www.kaggle.com/datasets/lucasgreenwell/depression-anxiety-stress-scales-responses?select=codebook.txt
 This data was collected with an on-line version of the Depression Anxiety Stress Scales (DASS). The DASS is a 42-item self report instrument designed to measure the three related negative emotional states of depression, anxiety and tension/stress.
